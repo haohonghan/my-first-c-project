@@ -6,7 +6,6 @@ int main(){
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
 	}
-	int s=sizeof(a)/sizeof(a[0]);
 	int sum=0;
 	int *p=a;
 	for(i=0;i<n;i++){
